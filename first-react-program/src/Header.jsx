@@ -10,6 +10,8 @@ function Header(){
                     <li><a href="#">Components</a></li>
                     <li><a href="#">Vite</a></li>
                     <li><a href="#">JavaScript XML</a></li>
+                    <li><a href="#">Fragments</a></li>
+
                 </ul>
             </nav>
             <hr></hr>
