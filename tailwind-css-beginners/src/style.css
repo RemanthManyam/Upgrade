@@ -2,4 +2,21 @@
 
 @theme {
     --color-royal-blue: oklch(21.613% 0.09471 275.052);
+    --font-rapture: Aptos,sans-serif ;
+}
+
+@utility grid-cols-autofit {
+    grid-template-columns: repeat(auto-fit,minmax(13.75rem,1fr));
+}
+
+@layer base {
+    h1,h2,h3 {
+        font-weight: 700;
+    }
+}
+
+@layer components {
+    .button {
+          @apply text-white px-3 py-2 inline-block rounded-4xl bg-rose-700 hover:bg-rose-500 transition-colors; 
+    }
 }
