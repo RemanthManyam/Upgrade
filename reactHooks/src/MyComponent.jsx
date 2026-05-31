@@ -2,17 +2,6 @@ import React, {useState} from 'react';
 
 function MyComponent(){
 
-    // const [age, setAge] = useState(0);
-
-    // const incrementAge = () => {
-    //     setAge(age + 1);
-    // }
-
-    // return(<div>
-    //     <p>Age: {age}</p>
-    //     <button onClick={incrementAge}>Increase Age</button>
-    // </div>);
-
     const [name, setName] = useState("Guest");
     const [age, setAge] = useState(0);
     const [isEmployed, empoloymentStatus] = useState(false);
