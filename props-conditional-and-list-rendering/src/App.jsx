@@ -4,7 +4,7 @@ import ConditionalRendering from "./ConditionalRendering";
 function App(){
 
   return(<>
-  <ConditionalRendering username="Anthony" isLoggedIn={true}></ConditionalRendering>
+  <ConditionalRendering username="David Gru" isLoggedIn={true}></ConditionalRendering>
   </>);
 }
 
