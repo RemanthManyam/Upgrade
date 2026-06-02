@@ -1,15 +1,19 @@
-.dogs{
-    border: 2px solid black;
-    margin:3em;
+.welcome{
+    font-family:'Courier New', Courier, monospace;
+    background-color: lightgreen;
+    border-radius: 5px;
+    font-size: 3em;
     padding:10px;
-    width:300px;
-    background-color: cyan;
-    color: cyan; /*got overriden*/
+    width:600px;
+    margin:0;
 }
 
-.dogs p{
-    margin: 0px;
-    background-color: black;
-    color: orange;
-    padding:1px;
+.loginPage{
+    font-family:'Courier New', Courier, monospace;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 3em;
+    padding:10px;
+    width:600px;
+    margin:0;
 }
