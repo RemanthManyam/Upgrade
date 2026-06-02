@@ -1,0 +1,15 @@
+.dogs{
+    border: 2px solid black;
+    margin:3em;
+    padding:10px;
+    width:300px;
+    background-color: cyan;
+    color: cyan; /*got overriden*/
+}
+
+.dogs p{
+    margin: 0px;
+    background-color: black;
+    color: orange;
+    padding:1px;
+}
