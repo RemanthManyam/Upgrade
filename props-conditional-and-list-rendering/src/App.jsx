@@ -1,10 +1,11 @@
 import Dogs from "./Dogs";
 import ConditionalRendering from "./ConditionalRendering";
+import ListRendering from './ListRendering.jsx'
 
 function App(){
 
   return(<>
-  <ConditionalRendering username="David Gru" isLoggedIn={true}></ConditionalRendering>
+  <ListRendering></ListRendering>
   </>);
 }
 
