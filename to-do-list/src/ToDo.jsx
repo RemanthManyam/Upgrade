@@ -1,24 +1,12 @@
-
+import React, {useState} from "react";
 
 function ToDo(){
 
-    const arr = [];
-
-    a button(btn)
-    a inputbox(userInput)
-
-    btn.onClick(() => {
-
-        arr.push(userInput);
-        userInput.clear();
-
-    })
-
-    let task = arr.map((ele) => {
-        return ele;
-    })
-
-    return(<><li>{task}</li></>);
+    return(<>
+    <h2>To-Do-list</h2>
+    <input type="text" placeholder="Enter a task..."></input> 
+    <button>Add</button>
+    </>);
 }
 
 export default ToDo;
